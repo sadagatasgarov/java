@@ -2,12 +2,36 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
+/*
+        //for
+        for(int i=0; i<10; i+=2){
+            System.out.println(i);
+        }
+
+        System.out.println("Dongu bitti");
+*/
+
+        int i = 1;
+/*
+        while (i < 10) {
+            System.out.println(i);
+            i++;
+        }
+        System.out.println("Dongu bitti");
+*/
+
+/*        do{
+            System.out.println(i);
+            i++;
+        }while (i<10);*/
+
+/*
         int sayi = 10;
         String sehir = "Ankara";
         for (int i = 0; i < sayi; i++) {
             System.out.println(1 == 8);
         }
-
         if (sayi == 10) {
             System.out.println(sehir);
         } else {
@@ -40,6 +64,7 @@ public class Main {
             default:
                 System.out.println("Kece bilmediniz");
         }
+*/
 
 
     }
