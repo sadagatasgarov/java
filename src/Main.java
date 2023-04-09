@@ -8,9 +8,12 @@ public class Main {
         ogrencier[0]="Ahmet";
         ogrencier[1]="Salih";
         ogrencier[2]="aaa";
-        ogrencier[3]="dsdh";
+        ogrencier[3]="dsdh";/*
         for (int i = 0; i < ogrencier.length; i++) {
             System.out.println(ogrencier[i]);
+        }*/
+        for (String ogrenci:ogrencier) {
+            System.out.println(ogrenci);
         }
 
 
