@@ -1,7 +1,19 @@
+import java.lang.reflect.Array;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        String[] ogrencier = new String[4];
+        ogrencier[0]="Ahmet";
+        ogrencier[1]="Salih";
+        ogrencier[2]="aaa";
+        ogrencier[3]="dsdh";
+        for (int i = 0; i < ogrencier.length; i++) {
+            System.out.println(ogrencier[i]);
+        }
+
+
 
 /*
         //for
@@ -65,6 +77,7 @@ public class Main {
                 System.out.println("Kece bilmediniz");
         }
 */
+
 
 
     }
