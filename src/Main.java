@@ -2,7 +2,35 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        String[][] sehirler = new String[3][3];
+
+
+
+
+/*
+String mesaj = "Bugun hava cok guzel";
+
+System.out.println(mesaj.replace(' ', '-'));
+
+//System.out.println(mesaj.substring(0,6));
+
+for (String kelime:mesaj.split(" ")){
+    System.out.println(kelime.toLowerCase());
+}*/
+
+   /*     System.out.println(mesaj);
+
+        System.out.println("Eleman sayisi" + mesaj.length());
+
+        System.out.println("5.eleman: " + mesaj.charAt(4));
+        System.out.println(mesaj.concat("Yasasin"));
+        System.out.println(mesaj.startsWith("Bi"));
+        char[] karak = new char[5];
+        mesaj.getChars(0, 5, karak, 0);
+        System.out.println(karak);
+
+        System.out.println(mesaj.indexOf("gun"));*/
+
+/*        String[][] sehirler = new String[3][3];
         sehirler[0][0]= "Istanbul";
         sehirler[0][1]= "Adana";
         sehirler[0][2]= "Baki";
@@ -14,10 +42,11 @@ public class Main {
         sehirler[2][2]= "Culfa";
 
         for (int i = 0; i< sehirler.length; i++){
+            System.out.println("***************************");
             for (int j=0; j< sehirler.length; j++){
                 System.out.println(sehirler[i][j]);
             }
-        }
+        }*/
 
 /*
         double[] myList = {1,2,3,4,5,6,7};
@@ -53,7 +82,7 @@ public class Main {
 
         System.out.println("Dongu bitti");
 */
-     /*   int i = 1;*/
+        /*   int i = 1;*/
 /*
         while (i < 10) {
             System.out.println(i);
